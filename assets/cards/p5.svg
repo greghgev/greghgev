@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 168" width="980" height="168" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif">
+<defs>
+  <filter id="sh-p5" x="-15%" y="-15%" width="130%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5.5" flood-color="#0f1e32" flood-opacity="0.16"/>
+  </filter>
+  <clipPath id="cl-p5"><rect x="10" y="6" width="960" height="150" rx="18"/></clipPath>
+</defs>
+<rect x="10" y="6" width="960" height="150" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-p5)"/>
+<g clip-path="url(#cl-p5)"><rect x="10" y="6" width="6" height="150" fill="#2196F3"/></g>
+<rect x="839.9" y="22" width="108.1" height="20" rx="10" fill="#7B61FF"/>
+<text x="893.9" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">INVESTIGACIÓN</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">Mitigación de ruido cuántico mediante IA — TFM</text>
+<text x="42" y="71" font-size="13" font-style="italic" fill="#2196F3">Investigación · Trabajo de Fin de Máster</text>
+<line x1="42" y1="83" x2="948" y2="83" stroke="#E1E6EE" stroke-width="1.2"/>
+<text x="42" y="103" font-size="14" fill="#4A5866">Aplicación de técnicas de aprendizaje automático a la estabilización y reducción de la tasa de error en entornos de computación cuántica.</text>
+<rect x="42.0" y="116" width="132.6" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="108.3" y="130" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Quantum Computing</text>
+<rect x="181.6" y="116" width="92.9" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="228.1" y="130" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Advanced AI</text>
+</svg>

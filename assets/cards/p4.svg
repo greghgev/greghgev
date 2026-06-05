@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 288" width="480" height="288" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif">
+<defs>
+  <filter id="sh-p4" x="-15%" y="-15%" width="130%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5.5" flood-color="#0f1e32" flood-opacity="0.16"/>
+  </filter>
+  <clipPath id="cl-p4"><rect x="10" y="6" width="460" height="270" rx="18"/></clipPath>
+</defs>
+<rect x="10" y="6" width="460" height="270" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-p4)"/>
+<g clip-path="url(#cl-p4)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
+<rect x="379.6" y="22" width="68.4" height="20" rx="10" fill="#5B6B7B"/>
+<text x="413.8" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">PRIVADO</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">Proyecto de Visión por</text>
+<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Computador</text>
+<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Idea propia — en privado</text>
+<line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>
+<text x="42" y="130" font-size="14" fill="#4A5866">Proyecto personal de visión artificial con deep learning, enfocado</text>
+<text x="42" y="149" font-size="14" fill="#4A5866">en eficiencia para despliegue en dispositivos móviles. Detalles</text>
+<text x="42" y="168" font-size="14" fill="#4A5866">reservados temporalmente.</text>
+<rect x="42.0" y="236" width="106.1" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="95.1" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Deep Learning</text>
+<rect x="155.1" y="236" width="119.4" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="214.8" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Computer Vision</text>
+<rect x="281.5" y="236" width="53.1" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="308.1" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">MLOps</text>
+</svg>

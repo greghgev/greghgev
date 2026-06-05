@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 288" width="480" height="288" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif">
+<defs>
+  <filter id="sh-p2" x="-15%" y="-15%" width="130%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5.5" flood-color="#0f1e32" flood-opacity="0.16"/>
+  </filter>
+  <clipPath id="cl-p2"><rect x="10" y="6" width="460" height="270" rx="18"/></clipPath>
+</defs>
+<rect x="10" y="6" width="460" height="270" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-p2)"/>
+<g clip-path="url(#cl-p2)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
+<rect x="359.8" y="22" width="88.2" height="20" rx="10" fill="#2EA043"/>
+<text x="403.9" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETADO</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">NLP Feature Extraction &amp;</text>
+<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Caracterización</text>
+<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Ingeniería de features lingüísticas</text>
+<line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>
+<text x="42" y="130" font-size="14" fill="#4A5866">Saneamiento de un corpus de +570k registros y extracción de</text>
+<text x="42" y="149" font-size="14" fill="#4A5866">señales predictivas con spaCy: lemas, NER y densidad</text>
+<text x="42" y="168" font-size="14" fill="#4A5866">morfológica, con validación estadística de patrones.</text>
+<rect x="42.0" y="236" width="53.1" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="68.6" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">spaCy</text>
+<rect x="102.1" y="236" width="59.8" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="132.0" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Pandas</text>
+<rect x="168.9" y="236" width="53.1" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="195.4" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">NumPy</text>
+<rect x="229.0" y="236" width="53.1" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
+<text x="255.6" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Regex</text>
+</svg>
