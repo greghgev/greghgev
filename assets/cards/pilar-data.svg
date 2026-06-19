@@ -7,7 +7,7 @@
 <rect x="10" y="10" width="280" height="190" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-pilar-data)"/>
 <g clip-path="url(#cl-pilar-data)"><rect x="10" y="10" width="280" height="6" fill="url(#acc)"/></g>
 <circle cx="150.0" cy="58" r="30" fill="#EAF4FE" stroke="#CEE3FA" stroke-width="1.5"/>
-<g><line x1="136.0" y1="66" x2="152.0" y2="44" stroke="url(#acc)" stroke-width="2.6"/><line x1="152.0" y1="44" x2="165.0" y2="64" stroke="url(#acc)" stroke-width="2.6"/><line x1="136.0" y1="66" x2="165.0" y2="64" stroke="url(#acc)" stroke-width="2.6"/><circle cx="136.0" cy="66" r="5" fill="url(#acc)"/><circle cx="152.0" cy="44" r="5" fill="url(#acc)"/><circle cx="165.0" cy="64" r="5" fill="url(#acc)"/></g>
+<g stroke="url(#acc)" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="133" y="41" width="34" height="9" rx="3"/><rect x="133" y="54" width="34" height="9" rx="3"/><rect x="133" y="67" width="34" height="9" rx="3"/></g>
 <text x="150" y="112" font-size="17" font-weight="700" fill="#1A2733" text-anchor="middle">Data &amp; Cloud</text>
 <line x1="124" y1="136" x2="176" y2="136" stroke="url(#acc)" stroke-width="2.4" stroke-linecap="round"/>
 <text x="150" y="152" font-size="12.5" fill="#4A5866" text-anchor="middle">Pipelines escalables y reproducibles en</text>

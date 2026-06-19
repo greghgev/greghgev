@@ -9,7 +9,7 @@
 <br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2196F3&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%C2%B7+Matem%C3%A1tico;LLMs+en+producci%C3%B3n%3A+FastAPI+%2B+LangChain;Arquitecturas+Modulares+%26+Clean+Code;Del+rigor+matem%C3%A1tico+al+despliegue" alt="typing-svg" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2196F3&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%C2%B7+Matem%C3%A1tico;LLMs+en+producci%C3%B3n%3A+FastAPI+%2B+LangChain;Data+Engineering%3A+Spark+%C2%B7+Kafka+%C2%B7+BigQuery;NLP+%C2%B7+Visi%C3%B3n+%C2%B7+Anomal%C3%ADas+%C2%B7+LLMOps;Del+rigor+matem%C3%A1tico+al+despliegue" alt="typing-svg" />
 </a>
 
 <br>
@@ -37,20 +37,18 @@
   <img src="assets/headers/sobre-mi-light.svg" width="480" alt="Sobre mí">
 </picture>
 
-**AI/ML Engineer** con base de **Matemático** (UGR) y **Máster en IA + especialización en Data Engineering** (en curso). Combino una sólida base analítica (álgebra lineal, optimización y estadística inferencial) con ingeniería de software aplicada a la IA: desde pipelines de datos escalables y reproducibles en cloud hasta el despliegue de microservicios de inferencia con LLMs.
+**AI/ML Engineer** con base de **Matemático** (UGR — grado nº 1 de España) y **Máster en IA + especialización en Data Engineering** en curso en UNIR. 
 
-Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks con rapidez, traduciendo problemas complejos en soluciones que llegan a producción.
+He trabajado de forma práctica en las principales ramas de la IA: procesamiento del lenguaje natural (embeddings, transformers, RAG/KAG), visión artificial (morfología matemática, segmentación por color), redes neuronales, aprendizaje no supervisado y LLMs en producción. La especialización en Data Engineering añade el lado cloud a escala: pipelines de streaming con **Spark + Kafka** sobre **Dataproc**, análisis analítico con **BigQuery** y despliegue en **GCP**.
+
+Parte del máster ha sido trabajo en equipo con entregables reales, y asimilo nuevos stacks con rapidez. Me muevo con comodidad en todo el ciclo del dato: desde la exploración y el preprocesamiento hasta el despliegue de servicios de inferencia.
 
 
 <br>
 
-<table>
-  <tr>
-    <td width="33%" align="center"><img src="assets/cards/pilar-matematica.svg" width="280" alt="Base matemática" /></td>
-    <td width="33%" align="center"><img src="assets/cards/pilar-produccion.svg" width="280" alt="IA en producción" /></td>
-    <td width="33%" align="center"><img src="assets/cards/pilar-data.svg" width="280" alt="Data & Cloud" /></td>
-  </tr>
-</table>
+<p align="center">
+<img src="assets/cards/pilar-matematica.svg" width="24%" alt="Base matemática" /><img src="assets/cards/pilar-produccion.svg" width="24%" alt="IA en producción" /><img src="assets/cards/pilar-ml.svg" width="24%" alt="ML Avanzado" /><img src="assets/cards/pilar-data.svg" width="24%" alt="Data & Cloud" />
+</p>
 
 
 
@@ -61,11 +59,16 @@ Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks c
   <img src="assets/headers/experiencia-light.svg" width="480" alt="Experiencia">
 </picture>
 
-### Backend AI Engineer — Prácticas · Mimesis Platform
-> <p><sub><b>2026</b></sub> &nbsp; <code>Python</code> · <code>FastAPI</code> · <code>Pydantic</code> · <code>LangChain</code> · <code>Llama 3.3 (Groq / Ollama)</code></p>
+### Backend AI Engineer / LLMOps — Prácticas · Qualígrafo S.L.
+> mar. – may. 2026 · 2 meses
+
+> <code>Python</code> · <code>FastAPI</code> · <code>LangChain</code> · <code>Pydantic</code> · <code>Groq API</code> · <code>Azure OpenAI</code> · <code>Ollama</code> · <code>HPC (SCAYLE)</code>
 >
-> - **Arquitectura backend e inferencia.** Microservicio REST con FastAPI para el procesamiento de datos cualitativos. Integración de la API de Groq (Llama 3.3) reduciendo el tiempo de inferencia de **60 s a 2 s**, con manejo robusto de excepciones HTTP frente a fallos de red.
-> - **Validación y orquestación de LLM.** LangChain para forzar las salidas del modelo en formato JSON y validación estricta con Pydantic, rechazando peticiones mal formadas, optimizando costes de API y garantizando la interoperabilidad con el resto del sistema.
+> Motor analítico *backend* para la plataforma Mimesis (investigación cualitativa → instrumentos cuantitativos mediante IA).
+>
+> - **Arquitectura asíncrona para HPC.** Backend síncrono rediseñado a sistema de colas por *jobs*: respuesta inmediata con ID + *polling*. Despliegue en clúster SCAYLE sin bloqueos ni *timeouts*.
+> - **Mitigación de alucinaciones.** JSON Schemas estrictos + validación Pydantic en tiempo real. Respuestas malformadas bloqueadas antes de propagarse al sistema.
+> - **Flexibilidad de inferencia**. Abstracción LangChain sobre Ollama / Groq / Azure OpenAI intercambiable vía .env para optimizar latencia y coste según el entorno.
 
 <br>
 
@@ -129,19 +132,18 @@ Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks c
   <img src="assets/headers/proyectos-light.svg" width="480" alt="Proyectos">
 </picture>
 
-<table>
-  <tr>
-    <td width="50%" align="center"><a href="https://github.com/greghgev/hate-speech-classification-mlops"><img src="assets/cards/p1.svg" width="430" alt="Hate Speech MLOps — Pipeline de clasificación" /></a></td>
-    <td width="50%" align="center"><a href="https://github.com/greghgev/hate-speech-analysis-nlp"><img src="assets/cards/p2.svg" width="430" alt="NLP Feature Extraction &amp; Caracterización" /></a></td>
-  </tr>
-  <tr>
-    <td width="50%" align="center"><a href="#"><img src="assets/cards/p3.svg" width="430" alt="Covertype: Random Forest vs SVM" /></a></td>
-    <td width="50%" align="center"><a href="#"><img src="assets/cards/p4.svg" width="430" alt="Proyecto de Visión por Computador" /></a></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><a href="#"><img src="assets/cards/p5.svg" width="880" alt="Mitigación de ruido cuántico mediante IA — TFM" /></a></td>
-  </tr>
-</table>
+<p align="center">
+<a href="https://github.com/greghgev/hate-speech-classification-mlops"><img src="assets/cards/p1.svg" width="40%" alt="Hate Speech MLOps — Pipeline de clasificación" /></a><a href="https://github.com/greghgev/hate-speech-analysis-nlp"><img src="assets/cards/p2.svg" width="40%" alt="NLP Feature Extraction &amp; Caracterización" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/covertype-rf-svm-comparison"><img src="assets/cards/p3.svg" width="40%" alt="Covertype: Random Forest vs SVM" /></a><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/pln_rag_kag_comparison"><img src="assets/cards/p4.svg" width="40%" alt="RAG vs KAG — Asistente de Normativa Universitaria" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/retinoblastoma-spatial-vs-morphology"><img src="assets/cards/p5.svg" width="40%" alt="Retinoblastoma — Filtros Espaciales vs Morfología" /></a><a href="#"><img src="assets/cards/p6.svg" width="40%" alt="Fraude en E-Commerce — Detección de Anomalías" /></a>
+</p>
+<p align="center">
+<a href="#"><img src="assets/cards/p7.svg" width="80%" alt="Mitigación de ruido cuántico mediante IA — TFM" /></a>
+</p>
 
 <br>
 
@@ -153,8 +155,8 @@ Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks c
 </picture>
 
 
-### Máster en Inteligencia Artificial + especialización en Data Engineering — UNIR
-> <p><sub><b>En curso · 2025</b></sub></p>
+### Máster en Inteligencia Artificial + especialización en Data Engineering — UNIR &nbsp; [![Repositorio](https://img.shields.io/badge/master--ia--unir-2196F3?style=flat-square&logo=github&logoColor=white)](https://github.com/greghgev/master-ia-unir)
+> <p><sub><b>En curso · nov. 2025 – jul. 2026</b></sub></p>
 > 
 > - **TFM:** aplicación de técnicas de IA para la mitigación de ruido en computación cuántica.
 > - **Data Engineering:** laboratorios de flujos de procesamiento continuo (Apache Kafka, Spark Streaming) e ingesta analítica en cloud (GCP, BigQuery).
@@ -167,7 +169,7 @@ Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks c
 <br>
 
 
-**Asignaturas del máster** · despliega cada una para ver el trabajo y las actividades
+<font color="#2196F3"><b>Asignaturas del máster</b></font> · <u>despliega</u> cada una para ver el trabajo y las actividades
 
 <!-- ===========================================================
   CÓMO EDITAR LAS ACTIVIDADES:
@@ -178,49 +180,47 @@ Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks c
 
 <table>
   <tr>
-    <td valign="top">
+    <td valign="top", width="35%">
       <details>
         <summary><b>Procesamiento del Lenguaje Natural</b></summary>
         <ul>
-          <li><a href="https://github.com/greghgev/nombre-del-repo">Actividad de ejemplo — edita texto y enlace</a></li>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/newsgroups-embeddings-vs-transformers">Word Embeddings vs Transformers — Clasificación de texto (20 Newsgroups)</a></li>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/pln_rag_kag_comparison">RAG vs KAG — Asistente de normativa universitaria con grafo de conocimiento</a></li>
         </ul>
       </details>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/cursada-2EA043?style=flat-square" alt="cursada" /></td>
-    <td valign="top"><sub>Representación de texto, modelos de lenguaje y clasificación.</sub></td>
+    <td valign="top"><sub>spaCy, Hugging Face, Freeling; morfosintaxis, fine-tuning de LLMs y chatbots.</sub></td>
   </tr>
   <tr>
     <td valign="top">
       <details>
         <summary><b>Técnicas de Aprendizaje Automático</b></summary>
         <ul>
-          <li><a href="https://github.com/greghgev/nombre-del-repo">Actividad de ejemplo — edita texto y enlace</a></li>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/airquality-linear-regression-vs-decision-tree">Linear Regression vs Decision Tree — Predicción de benceno (AirQualityUCI)</a></li>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/covertype-rf-svm-comparison">SVM vs Random Forest — Clasificación multiclase de cubierta forestal (Covertype)</a></li>
         </ul>
       </details>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/cursada-2EA043?style=flat-square" alt="cursada" /></td>
-    <td valign="top"><sub>Modelos supervisados, validación, regularización y evaluación.</sub></td>
+    <td valign="top"><sub>Naive Bayes, árboles de decisión, métricas (F1, recall, ROC) y optimización de hiperparámetros.</sub></td>
   </tr>
   <tr>
     <td valign="top">
       <details>
         <summary><b>Visión Artificial</b></summary>
         <ul>
-          <li><a href="https://github.com/greghgev/nombre-del-repo">Actividad de ejemplo — edita texto y enlace</a></li>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/retinoblastoma-spatial-vs-morphology">Filtros espaciales vs morfología matemática — Detección de retinoblastoma</a></li>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/amazon-deforestation-segmentation">Segmentación HSV en imágenes Landsat — Deforestación Amazonas (2000–2019)</a></li>
         </ul>
       </details>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/cursada-2EA043?style=flat-square" alt="cursada" /></td>
-    <td valign="top"><sub>Filtrado espacial/frecuencial, morfología y redes convolucionales.</sub></td>
+    <td valign="top"><sub>Procesamiento temporal/frecuencial, extracción de características, texturas y multiescala.</sub></td>
   </tr>
   <tr>
     <td valign="top">
-      <details>
-        <summary><b>Razonamiento y Planificación Automática</b></summary>
-        <ul>
-          <li><a href="https://github.com/greghgev/nombre-del-repo">Actividad de ejemplo — edita texto y enlace</a></li>
-        </ul>
-      </details>
+      <b>Razonamiento y Planificación Automática</b>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/cursada-2EA043?style=flat-square" alt="cursada" /></td>
     <td valign="top"><sub>PDDL y algoritmos de búsqueda (informada y no informada).</sub></td>
@@ -230,28 +230,68 @@ Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks c
       <details>
         <summary><b>Aprendizaje Automático No Supervisado</b></summary>
         <ul>
-          <li><a href="https://github.com/greghgev/nombre-del-repo">Actividad de ejemplo — edita texto y enlace</a></li>
+          <li><sub><i>Próximamente</i></sub></li>
         </ul>
       </details>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/en%20curso-D29922?style=flat-square" alt="en curso" /></td>
-    <td valign="top"><sub>Clustering, reducción de dimensionalidad y detección de anomalías.</sub></td>
+    <td valign="top"><sub>K-Means, DBSCAN, t-SNE, MDS, ISOMAP, detección de anomalías y aprendizaje por refuerzo.</sub></td>
   </tr>
   <tr>
     <td valign="top">
       <details>
         <summary><b>Redes Neuronales</b></summary>
         <ul>
-          <li><a href="https://github.com/greghgev/nombre-del-repo">Actividad de ejemplo — edita texto y enlace</a></li>
+          <li><sub><i>Próximamente</i></sub></li>
         </ul>
       </details>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/en%20curso-D29922?style=flat-square" alt="en curso" /></td>
-    <td valign="top"><sub>Arquitecturas profundas, optimización y entrenamiento de modelos.</sub></td>
+    <td valign="top"><sub>Keras, TensorFlow, GANs, CUDA/cuDNN; imágenes, series temporales y cloud AI.</sub></td>
   </tr>
 </table>
 
 <br>
+
+<font color="#2196F3"><b>Asignaturas del Programa Superior en Ingeniería de Datos</b></font> · <u>despliega</u> cada una para ver el trabajo y las actividades
+
+<!-- ===========================================================
+  CÓMO EDITAR LAS ACTIVIDADES:
+  Dentro del <ul> de cada asignatura, añade o quita líneas en HTML
+  (va dentro de una celda de tabla, por eso NO es markdown):
+        <li><a href="https://github.com/greghgev/NOMBRE-DEL-REPO">Nombre de la actividad</a></li>
+============================================================ -->
+
+<table>
+  <tr>
+    <td valign="top", width="40%">
+      <details>
+        <summary><b>Ingeniería para el Procesado Masivo de Datos</b></summary>
+        <ul>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/ingenieria-datos/walmart-sales-bigquery-eda">Walmart Sales EDA — Análisis exploratorio con Google BigQuery y SQL</a></li>
+          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/ingenieria-datos/flights-spark-streaming-kafka">Flights — Spark Structured Streaming + Kafka sobre Google Dataproc</a></li>
+        </ul>
+      </details>
+    </td>
+    <td valign="top"><img src="https://img.shields.io/badge/cursada-2EA043?style=flat-square" alt="cursada" /></td>
+    <td valign="top"><sub>ETL masivas con Spark, almacenes relacionales sobre Hive y servicios cloud (GCP, Azure, AWS).</sub></td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <details>
+        <summary><b>MLOps y AIOps: Despliegue de Modelos en Entornos de Producción</b></summary>
+        <ul>
+          <li><sub><i>Próximamente</i></sub></li>
+        </ul>
+      </details>
+    </td>
+    <td valign="top"><img src="https://img.shields.io/badge/en%20curso-D29922?style=flat-square" alt="en curso" /></td>
+    <td valign="top"><sub>CI/CD para ML con MLflow, Docker, Google Vertex AI y orquestación en producción.</sub></td>
+  </tr>
+</table>
+
+<br>
+
 
 ---
 
@@ -302,7 +342,7 @@ Me muevo con soltura en todo el ciclo de vida del dato y asimilo nuevos stacks c
 
 <div align="center">
 
-<a href="assets/CV.pdf">
+<a href="assets/cv.pdf">
   <img src="assets/cv-preview.png" width="420" alt="Vista previa del CV — clic para abrir el PDF completo" />
 </a>
 

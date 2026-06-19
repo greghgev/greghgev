@@ -7,7 +7,7 @@
 <rect x="10" y="10" width="280" height="190" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-pilar-matematica)"/>
 <g clip-path="url(#cl-pilar-matematica)"><rect x="10" y="10" width="280" height="6" fill="url(#acc)"/></g>
 <circle cx="150.0" cy="58" r="30" fill="#EAF4FE" stroke="#CEE3FA" stroke-width="1.5"/>
-<g stroke="url(#acc)" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<g stroke="url(#acc)" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180, 150, 58)">
       <path d="M 134.0 43 L 166.0 43 L 144.0 58 L 166.0 73 L 134.0 73"/></g>
 <text x="150" y="112" font-size="17" font-weight="700" fill="#1A2733" text-anchor="middle">Base matemática</text>
 <line x1="124" y1="136" x2="176" y2="136" stroke="url(#acc)" stroke-width="2.4" stroke-linecap="round"/>
