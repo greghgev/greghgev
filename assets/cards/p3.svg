@@ -7,15 +7,15 @@
 </defs>
 <rect x="10" y="6" width="460" height="270" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-p3)"/>
 <g clip-path="url(#cl-p3)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
-<rect x="359.8" y="22" width="88.2" height="20" rx="10" fill="#2EA043"/>
-<text x="403.9" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETADO</text>
+<rect x="366.4" y="22" width="81.6" height="20" rx="10" fill="#2EA043"/>
+<text x="407.2" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETED</text>
 <text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">Covertype: Random Forest</text>
 <text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">vs SVM</text>
-<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Comparativa algorítmica a escala · 🎓 Máster IA, UNIR</text>
+<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Algorithmic comparison at scale · 🎓 Master's in AI, UNIR</text>
 <line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>
-<text x="42" y="130" font-size="14" fill="#4A5866">Clasificación multiclase de cobertura forestal comparando</text>
-<text x="42" y="149" font-size="14" fill="#4A5866">Random Forest y SVM sobre el dataset UCI Covertype.</text>
-<text x="42" y="168" font-size="14" fill="#4A5866">EDA, selección de features con ANOVA y Chi², comparativa final.</text>
+<text x="42" y="130" font-size="14" fill="#4A5866">Multiclass forest cover classification comparing</text>
+<text x="42" y="149" font-size="14" fill="#4A5866">Random Forest and SVM on the UCI Covertype dataset.</text>
+<text x="42" y="168" font-size="14" fill="#4A5866">EDA, feature selection with ANOVA and Chi², final comparison.</text>
 <rect x="42.0" y="236" width="99.5" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
 <text x="91.8" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">scikit-learn</text>
 <rect x="148.5" y="236" width="107.0" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>

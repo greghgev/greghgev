@@ -9,8 +9,8 @@
 <circle cx="150.0" cy="58" r="30" fill="#EAF4FE" stroke="#CEE3FA" stroke-width="1.5"/>
 <g stroke="url(#acc)" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M 154.0 41 L 138.0 61 L 149.0 61 L 146.0 75 L 162.0 55 L 151.0 55 Z"/></g>
-<text x="150" y="112" font-size="17" font-weight="700" fill="#1A2733" text-anchor="middle">IA en producción</text>
+<text x="150" y="112" font-size="17" font-weight="700" fill="#1A2733" text-anchor="middle">AI in production</text>
 <line x1="124" y1="136" x2="176" y2="136" stroke="url(#acc)" stroke-width="2.4" stroke-linecap="round"/>
-<text x="150" y="152" font-size="12.5" fill="#4A5866" text-anchor="middle">Microservicios de inferencia LLM con</text>
-<text x="150" y="169" font-size="12.5" fill="#4A5866" text-anchor="middle">FastAPI, LangChain y validación estricta.</text>
+<text x="150" y="152" font-size="12.5" fill="#4A5866" text-anchor="middle">LLM inference microservices with</text>
+<text x="150" y="169" font-size="12.5" fill="#4A5866" text-anchor="middle">FastAPI, LangChain and strict validation.</text>
 </svg>

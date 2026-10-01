@@ -7,19 +7,19 @@
 </defs>
 <rect x="10" y="6" width="460" height="270" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-p6)"/>
 <g clip-path="url(#cl-p6)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
-<rect x="359.8" y="22" width="88.2" height="20" rx="10" fill="#2EA043"/>
-<text x="403.9" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETADO</text>
-<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">Retinoblastoma — Filtros</text>
-<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Espaciales vs Morfología</text>
-<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Preprocesamiento en imágenes de fondo de ojo</text>
+<rect x="366.4" y="22" width="81.6" height="20" rx="10" fill="#2EA043"/>
+<text x="407.2" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETED</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">Retinoblastoma — Spatial</text>
+<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Filters vs Morphology</text>
+<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Preprocessing of fundus images</text>
 <line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>
-<text x="42" y="130" font-size="14" fill="#4A5866">Tres técnicas sobre 8 imágenes RB + 2 controles negativos:</text>
-<text x="42" y="149" font-size="14" fill="#4A5866">Prewitt, apertura+Beucher y apertura+binarización. Evaluación</text>
-<text x="42" y="168" font-size="14" fill="#4A5866">con entropía de Shannon, desviación estándar y gradiente.</text>
+<text x="42" y="130" font-size="14" fill="#4A5866">Three techniques on 8 RB images + 2 negative controls:</text>
+<text x="42" y="149" font-size="14" fill="#4A5866">Prewitt, opening+Beucher and opening+binarization. Evaluation</text>
+<text x="42" y="168" font-size="14" fill="#4A5866">with Shannon entropy, standard deviation and gradient.</text>
 <rect x="42.0" y="236" width="59.6" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
 <text x="71.8" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">MATLAB</text>
 <rect x="108.6" y="236" width="85.6" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
-<text x="151.4" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Morfología</text>
+<text x="151.4" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Morphology</text>
 <rect x="201.2" y="236" width="66.2" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
 <text x="234.3" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">Shannon</text>
 </svg>

@@ -7,15 +7,15 @@
 </defs>
 <rect x="10" y="6" width="460" height="270" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-p4)"/>
 <g clip-path="url(#cl-p4)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
-<rect x="359.8" y="22" width="88.2" height="20" rx="10" fill="#2EA043"/>
-<text x="403.9" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETADO</text>
-<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">RAG vs KAG — Asistente de</text>
-<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Normativa Universitaria</text>
-<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Retrieval denso · BM25 · híbrido + Knowledge Graph</text>
+<rect x="366.4" y="22" width="81.6" height="20" rx="10" fill="#2EA043"/>
+<text x="407.2" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETED</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">RAG vs KAG — University</text>
+<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Regulations Assistant</text>
+<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Dense retrieval · BM25 · hybrid + Knowledge Graph</text>
 <line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>
-<text x="42" y="130" font-size="14" fill="#4A5866">Pipeline RAG con tres motores de retrieval comparados</text>
-<text x="42" y="149" font-size="14" fill="#4A5866">sobre normativa académica; Knowledge Graph (networkx)</text>
-<text x="42" y="168" font-size="14" fill="#4A5866">para razonamiento multi-hop sobre reglas implícitas.</text>
+<text x="42" y="130" font-size="14" fill="#4A5866">RAG pipeline with three retrieval engines compared</text>
+<text x="42" y="149" font-size="14" fill="#4A5866">on academic regulations; Knowledge Graph (networkx)</text>
+<text x="42" y="168" font-size="14" fill="#4A5866">for multi-hop reasoning over implicit rules.</text>
 <rect x="42.0" y="236" width="53.0" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
 <text x="68.5" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">txtai</text>
 <rect x="102.0" y="236" width="72.8" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>

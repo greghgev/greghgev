@@ -9,9 +9,9 @@
 <circle cx="150.0" cy="58" r="30" fill="#EAF4FE" stroke="#CEE3FA" stroke-width="1.5"/>
 <g stroke="url(#acc)" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180, 150, 58)">
       <path d="M 134.0 43 L 166.0 43 L 144.0 58 L 166.0 73 L 134.0 73"/></g>
-<text x="150" y="112" font-size="17" font-weight="700" fill="#1A2733" text-anchor="middle">Base matemática</text>
+<text x="150" y="112" font-size="17" font-weight="700" fill="#1A2733" text-anchor="middle">Mathematical foundation</text>
 <line x1="124" y1="136" x2="176" y2="136" stroke="url(#acc)" stroke-width="2.4" stroke-linecap="round"/>
-<text x="150" y="152" font-size="12.5" fill="#4A5866" text-anchor="middle">Álgebra, optimización y estadística para</text>
-<text x="150" y="169" font-size="12.5" fill="#4A5866" text-anchor="middle">entender y mejorar los modelos desde su</text>
-<text x="150" y="186" font-size="12.5" fill="#4A5866" text-anchor="middle">raíz.</text>
+<text x="150" y="152" font-size="12.5" fill="#4A5866" text-anchor="middle">Algebra, optimization and statistics to</text>
+<text x="150" y="169" font-size="12.5" fill="#4A5866" text-anchor="middle">understand and improve models at their</text>
+<text x="150" y="186" font-size="12.5" fill="#4A5866" text-anchor="middle">core.</text>
 </svg>

@@ -7,15 +7,15 @@
 </defs>
 <rect x="10" y="6" width="460" height="270" rx="18" fill="#FFFFFF" stroke="#E1E6EE" stroke-width="1.5" filter="url(#sh-p2)"/>
 <g clip-path="url(#cl-p2)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
-<rect x="359.8" y="22" width="88.2" height="20" rx="10" fill="#2EA043"/>
-<text x="403.9" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETADO</text>
+<rect x="366.4" y="22" width="81.6" height="20" rx="10" fill="#2EA043"/>
+<text x="407.2" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETED</text>
 <text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">NLP Feature Extraction &amp;</text>
-<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Caracterización</text>
-<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Ingeniería de features lingüísticas</text>
+<text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Characterization</text>
+<text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Linguistic feature engineering</text>
 <line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>
-<text x="42" y="130" font-size="14" fill="#4A5866">Saneamiento de un corpus de +570k registros y extracción de</text>
-<text x="42" y="149" font-size="14" fill="#4A5866">señales predictivas con spaCy: lemas, NER y densidad</text>
-<text x="42" y="168" font-size="14" fill="#4A5866">morfológica, con validación estadística de patrones.</text>
+<text x="42" y="130" font-size="14" fill="#4A5866">Cleaning of a 570k+ record corpus and extraction of</text>
+<text x="42" y="149" font-size="14" fill="#4A5866">predictive signals with spaCy: lemmas, NER and morphological</text>
+<text x="42" y="168" font-size="14" fill="#4A5866">density, with statistical validation of patterns.</text>
 <rect x="42.0" y="236" width="53.1" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
 <text x="68.6" y="250" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" fill="#1565C0" text-anchor="middle">spaCy</text>
 <rect x="102.1" y="236" width="59.8" height="20" rx="6" fill="#E8F2FE" stroke="#CEE3FA" stroke-width="1"/>
