@@ -9,7 +9,7 @@
 <g clip-path="url(#cl-p4)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
 <rect x="366.4" y="22" width="81.6" height="20" rx="10" fill="#2EA043"/>
 <text x="407.2" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COMPLETED</text>
-<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">RAG vs KAG — University</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">RAG vs KAG - University</text>
 <text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Regulations Assistant</text>
 <text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Dense retrieval · BM25 · hybrid + Knowledge Graph</text>
 <line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>

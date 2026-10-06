@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/headers/banner.svg" width="100%" alt="Gregory Harutyunyan — AI/ML Engineer · Mathematician" />
+<img src="assets/headers/banner.svg" width="100%" alt="Gregory Harutyunyan - AI/ML Engineer · Mathematician" />
 
 <br><br>
 
@@ -37,13 +37,15 @@
   <img src="assets/headers/sobre-mi-light.svg" width="480" alt="About me">
 </picture>
 
-**AI / Machine Learning Engineer** with a strong background in **Mathematics** (UGR — #1 Mathematics degree in Spain, ShanghaiRanking 2025) and a **Master's in AI + Data Engineering specialization** (UNIR) in its final stage. EU citizen based in Granada, open to relocation and **available for internships or junior roles** (internship agreements possible until July 2027).
+**AI / Machine Learning Engineer** with a background in **Mathematics** (UGR - #1 Mathematics degree in Spain, ShanghaiRanking 2025) and a **Master's in AI + Data Engineering specialization** (UNIR) in its final stage. EU citizen based in Granada, open to relocation and **available for internships or junior roles**.
 
-During my internship at **Qualígrafo** I built a production-oriented LLM backend for HPC deployment: I migrated a multi-stage AI assistant API to an asynchronous job-based system for the SCAYLE supercomputing cluster, with Pydantic validation and a LangChain layer to switch between LLM providers. My Master's thesis applies **machine learning and graph neural networks** to predict, before execution, how much noise will degrade a quantum circuit.
+During my internship at **Qualígrafo**, I worked on the LLM inference engine of Mimesis, an AI platform that helps psychologists and researchers turn hours of interviews into customised surveys, extracting relevant patterns and generating conclusions automatically.
+
+I'm finishing an MSc in Artificial Intelligence with a specialization in Data Engineering (UNIR). My Master's thesis uses **machine learning and graph neural networks** to predict, before execution, how much noise will degrade a quantum circuit, so that poor executions can be avoided and quantum processor time and costs can be reduced.
 
 I have worked hands-on across the main branches of AI: natural language processing (transformers, RAG/KAG), computer vision, deep learning (CNNs, GNNs), unsupervised learning and anomaly detection. The Data Engineering specialization adds the cloud-at-scale side: streaming pipelines with **Spark + Kafka** on **Dataproc**, analytics with **BigQuery** and MLOps tooling (Docker, MLflow, W&B, DVC).
 
-Part of the Master's has been teamwork with real deliverables, and I pick up new stacks quickly. I am comfortable across the entire data lifecycle: from exploration and preprocessing to deploying inference services.
+I work particularly well in team environments and I pick up new stacks quickly. I am comfortable across the entire data lifecycle: from exploration and preprocessing to deploying inference services.
 
 
 <br>
@@ -68,7 +70,34 @@ Part of the Master's has been teamwork with real deliverables, and I pick up new
 >
 > - **AI Assistant Backend (HPC):** Migrated the API of an AI assistant for psychologists and researchers (2 mixed-methods pipelines of 4 phases each, with 10 endpoints) to an asynchronous job-based system. Validated the architecture for the SCAYLE supercomputing cluster.
 > - **Hallucination mitigation:** Implemented JSON Schemas and real-time validation with Pydantic for 8 prompt stages in an orchestrated LLM pipeline.
-> - **Inference flexibility:** Developed an abstraction layer with LangChain to switch between 3 LLM providers (Ollama, Groq, Azure OpenAI), with ~2 s inference latency.
+> - **Inference flexibility:** Developed an abstraction layer with LangChain to switch between 3 LLM providers (Ollama, Groq, Azure OpenAI) to optimize latency and cost depending on the environment.
+
+<br>
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headers/tfm-dark.svg">
+  <img src="assets/headers/tfm-light.svg" width="480" alt="Master's Thesis">
+</picture>
+
+### Quantum Noise Mitigation with AI &nbsp; [![Master's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Master%27s%20Thesis-PDF%20%C2%B7%20Spanish-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis.pdf)
+> Submitted · 2026 · Master's in AI · UNIR
+
+> <code>Python</code> · <code>PyTorch Geometric</code> · <code>Qiskit Aer</code> · <code>Scikit-learn</code> · <code>W&amp;B</code> · <code>DVC</code> · <code>GCP</code>
+>
+> **Can we predict, before running a quantum circuit, how much noise will degrade its result?** Current error-mitigation techniques act after measurement and require running the circuit many times, which consumes an expensive and scarce resource: quantum processor time. This thesis studies whether that degradation can be anticipated from the circuit structure and the processor calibration alone.
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cards/tfm-pipeline-dark.svg">
+  <img src="assets/cards/tfm-pipeline-light.svg" width="90%" alt="Thesis pipeline: quantum circuit, representation, models and predicted survival factor">
+</picture>
+</p>
+
+> - **Dataset:** 20,000 circuits of 5 to 15 qubits, labeled with their exact degradation using 42 days of real calibration data from an IBM processor, and split along 3 independent generalization axes (circuit type, size and time).
+> - **Target:** the signed degradation turned out not to be predictable before execution; reformulated as a *survival factor* (the fraction of signal that remains after noise), it is.
+> - **Results:** Random Forest wins overall and is the only model that never worsens the corrected observable (up to 81% relative improvement). Graph neural networks only pay off when extrapolating to larger circuits (+0.21 and +0.23 R² over Random Forest on the X observable at 14 and 15 qubits).
 
 <br>
 
@@ -157,16 +186,13 @@ Part of the Master's has been teamwork with real deliverables, and I pick up new
 </picture>
 
 <p align="center">
-<a href="https://github.com/greghgev/hate-speech-classification-mlops"><img src="assets/cards/p1.svg" width="40%" alt="Hate Speech MLOps — Classification pipeline" /></a><a href="https://github.com/greghgev/hate-speech-analysis-nlp"><img src="assets/cards/p2.svg" width="40%" alt="NLP Feature Extraction &amp; Characterization" /></a>
+<a href="https://github.com/greghgev/hate-speech-classification-mlops"><img src="assets/cards/p1.svg" width="40%" alt="Hate Speech MLOps - Classification pipeline" /></a><a href="https://github.com/greghgev/hate-speech-analysis-nlp"><img src="assets/cards/p2.svg" width="40%" alt="NLP Feature Extraction &amp; Characterization" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/covertype-rf-svm-comparison"><img src="assets/cards/p3.svg" width="40%" alt="Covertype: Random Forest vs SVM" /></a><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/pln_rag_kag_comparison"><img src="assets/cards/p4.svg" width="40%" alt="RAG vs KAG — University Regulations Assistant" /></a>
+<a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/covertype-rf-svm-comparison"><img src="assets/cards/p3.svg" width="40%" alt="Covertype: Random Forest vs SVM" /></a><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/pln_rag_kag_comparison"><img src="assets/cards/p4.svg" width="40%" alt="RAG vs KAG - University Regulations Assistant" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/retinoblastoma-spatial-vs-morphology"><img src="assets/cards/p5.svg" width="40%" alt="Retinoblastoma — Spatial Filters vs Morphology" /></a><a href="#"><img src="assets/cards/p6.svg" width="40%" alt="E-Commerce Fraud — Anomaly Detection" /></a>
-</p>
-<p align="center">
-<a href="assets/master-thesis.pdf"><img src="assets/cards/p7.svg" width="80%" alt="Quantum Noise Mitigation with AI — Master's Thesis" /></a>
+<a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/retinoblastoma-spatial-vs-morphology"><img src="assets/cards/p5.svg" width="40%" alt="Retinoblastoma - Spatial Filters vs Morphology" /></a><a href="#"><img src="assets/cards/p6.svg" width="40%" alt="E-Commerce Fraud - Anomaly Detection" /></a>
 </p>
 
 <br>
@@ -194,7 +220,7 @@ Part of the Master's has been teamwork with real deliverables, and I pick up new
 <br>
 
 
-<font color="#2196F3"><b>Master's courses</b></font> · <u>expand</u> each one to see the work and activities
+<font color="#2196F3"><b>Master's courses</b></font>
 
 <!-- ===========================================================
   HOW TO EDIT THE ACTIVITIES:
@@ -206,79 +232,69 @@ Part of the Master's has been teamwork with real deliverables, and I pick up new
 <table>
   <tr>
     <td valign="top", width="35%">
-      <details>
-        <summary><b>Natural Language Processing</b></summary>
-        <ul>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/newsgroups-embeddings-vs-transformers">Word Embeddings vs Transformers — Text classification (20 Newsgroups)</a></li>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/pln_rag_kag_comparison">RAG vs KAG — University regulations assistant with a knowledge graph</a></li>
-        </ul>
-      </details>
+      <b>Natural Language Processing</b>
+      <ul>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/newsgroups-embeddings-vs-transformers">Word Embeddings vs Transformers - Text classification (20 Newsgroups)</a></li>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/pln/pln_rag_kag_comparison">RAG vs KAG - University regulations assistant with a knowledge graph</a></li>
+      </ul>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/completed-2EA043?style=flat-square" alt="completed" /></td>
-    <td valign="top"><sub>spaCy, Hugging Face, Freeling; morphosyntax, LLM fine-tuning and chatbots.</sub></td>
+    <td valign="top"><small>spaCy, Hugging Face, Freeling; morphosyntax, LLM fine-tuning and chatbots.</small></td>
   </tr>
   <tr>
     <td valign="top">
-      <details>
-        <summary><b>Machine Learning Techniques</b></summary>
-        <ul>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/airquality-linear-regression-vs-decision-tree">Linear Regression vs Decision Tree — Benzene prediction (AirQualityUCI)</a></li>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/covertype-rf-svm-comparison">SVM vs Random Forest — Multiclass forest cover classification (Covertype)</a></li>
-        </ul>
-      </details>
+      <b>Machine Learning Techniques</b>
+      <ul>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/airquality-linear-regression-vs-decision-tree">Linear Regression vs Decision Tree - Benzene prediction (AirQualityUCI)</a></li>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/tecnicas-aa/covertype-rf-svm-comparison">SVM vs Random Forest - Multiclass forest cover classification (Covertype)</a></li>
+      </ul>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/completed-2EA043?style=flat-square" alt="completed" /></td>
-    <td valign="top"><sub>Naive Bayes, decision trees, metrics (F1, recall, ROC) and hyperparameter optimization.</sub></td>
+    <td valign="top"><small>Naive Bayes, decision trees, metrics (F1, recall, ROC) and hyperparameter optimization.</small></td>
   </tr>
   <tr>
     <td valign="top">
-      <details>
-        <summary><b>Computer Vision</b></summary>
-        <ul>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/retinoblastoma-spatial-vs-morphology">Spatial filters vs mathematical morphology — Retinoblastoma detection</a></li>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/amazon-deforestation-segmentation">HSV segmentation on Landsat images — Amazon deforestation (2000–2019)</a></li>
-        </ul>
-      </details>
+      <b>Computer Vision</b>
+      <ul>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/retinoblastoma-spatial-vs-morphology">Spatial filters vs mathematical morphology - Retinoblastoma detection</a></li>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/vision-artificial/amazon-deforestation-segmentation">HSV segmentation on Landsat images - Amazon deforestation (2000–2019)</a></li>
+      </ul>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/completed-2EA043?style=flat-square" alt="completed" /></td>
-    <td valign="top"><sub>Time/frequency-domain processing, feature extraction, textures and multiscale analysis.</sub></td>
+    <td valign="top"><small>Time/frequency-domain processing, feature extraction, textures and multiscale analysis.</small></td>
   </tr>
   <tr>
     <td valign="top">
       <b>Automated Reasoning and Planning</b>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/completed-2EA043?style=flat-square" alt="completed" /></td>
-    <td valign="top"><sub>PDDL and search algorithms (informed and uninformed).</sub></td>
+    <td valign="top"><small>PDDL and search algorithms (informed and uninformed).</small></td>
   </tr>
   <tr>
     <td valign="top">
-      <details>
-        <summary><b>Unsupervised Machine Learning</b></summary>
-        <ul>
-          <li><sub><i>Coming soon</i></sub></li>
-        </ul>
-      </details>
+      <b>Unsupervised Machine Learning</b>
+      <ul>
+        <li><sub><i>Coming soon</i></sub></li>
+      </ul>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/in%20progress-D29922?style=flat-square" alt="in progress" /></td>
-    <td valign="top"><sub>K-Means, DBSCAN, t-SNE, MDS, ISOMAP, anomaly detection and reinforcement learning.</sub></td>
+    <td valign="top"><small>K-Means, DBSCAN, t-SNE, MDS, ISOMAP, anomaly detection and reinforcement learning.</small></td>
   </tr>
   <tr>
     <td valign="top">
-      <details>
-        <summary><b>Neural Networks</b></summary>
-        <ul>
-          <li><sub><i>Coming soon</i></sub></li>
-        </ul>
-      </details>
+      <b>Neural Networks</b>
+      <ul>
+        <li><sub><i>Coming soon</i></sub></li>
+      </ul>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/in%20progress-D29922?style=flat-square" alt="in progress" /></td>
-    <td valign="top"><sub>Keras, TensorFlow, GANs, CUDA/cuDNN; images, time series and cloud AI.</sub></td>
+    <td valign="top"><small>Keras, TensorFlow, GANs, CUDA/cuDNN; images, time series and cloud AI.</small></td>
   </tr>
 </table>
 
 <br>
 
-<font color="#2196F3"><b>Advanced Program in Data Engineering courses</b></font> · <u>expand</u> each one to see the work and activities
+<font color="#2196F3"><b>Advanced Program in Data Engineering courses</b></font>
 
 <!-- ===========================================================
   HOW TO EDIT THE ACTIVITIES:
@@ -290,28 +306,24 @@ Part of the Master's has been teamwork with real deliverables, and I pick up new
 <table>
   <tr>
     <td valign="top", width="40%">
-      <details>
-        <summary><b>Engineering for Massive Data Processing</b></summary>
-        <ul>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/ingenieria-datos/walmart-sales-bigquery-eda">Walmart Sales EDA — Exploratory analysis with Google BigQuery and SQL</a></li>
-          <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/ingenieria-datos/flights-spark-streaming-kafka">Flights — Spark Structured Streaming + Kafka on Google Dataproc</a></li>
-        </ul>
-      </details>
+      <b>Engineering for Massive Data Processing</b>
+      <ul>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/ingenieria-datos/walmart-sales-bigquery-eda">Walmart Sales EDA - Exploratory analysis with Google BigQuery and SQL</a></li>
+        <li><a href="https://github.com/greghgev/master-ia-unir/tree/main/ingenieria-datos/flights-spark-streaming-kafka">Flights - Spark Structured Streaming + Kafka on Google Dataproc</a></li>
+      </ul>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/completed-2EA043?style=flat-square" alt="completed" /></td>
-    <td valign="top"><sub>Large-scale ETL with Spark, relational warehouses on Hive and cloud services (GCP, Azure, AWS).</sub></td>
+    <td valign="top"><small>Large-scale ETL with Spark, relational warehouses on Hive and cloud services (GCP, Azure, AWS).</small></td>
   </tr>
   <tr>
     <td valign="top">
-      <details>
-        <summary><b>MLOps and AIOps: Deploying Models in Production Environments</b></summary>
-        <ul>
-          <li><sub><i>Coming soon</i></sub></li>
-        </ul>
-      </details>
+      <b>MLOps and AIOps: Deploying Models in Production Environments</b>
+      <ul>
+        <li><sub><i>Coming soon</i></sub></li>
+      </ul>
     </td>
     <td valign="top"><img src="https://img.shields.io/badge/in%20progress-D29922?style=flat-square" alt="in progress" /></td>
-    <td valign="top"><sub>CI/CD for ML with MLflow, Docker, Google Vertex AI and orchestration in production.</sub></td>
+    <td valign="top"><small>CI/CD for ML with MLflow, Docker, Google Vertex AI and orchestration in production.</small></td>
   </tr>
 </table>
 
@@ -330,7 +342,7 @@ Part of the Master's has been teamwork with real deliverables, and I pick up new
 <br>
 
 <!-- ===========================================================
-  "GITHUB ACTIVITY" SECTION — HIDDEN.
+  "GITHUB ACTIVITY" SECTION - HIDDEN.
   (If you re-enable it, you will again need the workflows from the .github
   folder that were deleted, because they generate metrics.svg and the output branch.)
   To show it, delete THIS opening comment line and the closing one.
@@ -368,7 +380,7 @@ Part of the Master's has been teamwork with real deliverables, and I pick up new
 <div align="center">
 
 <a href="assets/cv.pdf">
-  <img src="assets/cv-preview.png" width="420" alt="CV preview — click to open the full PDF" />
+  <img src="assets/cv-preview.png" width="420" alt="CV preview - click to open the full PDF" />
 </a>
 
 <br>

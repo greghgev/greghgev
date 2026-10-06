@@ -9,7 +9,7 @@
 <g clip-path="url(#cl-p5)"><rect x="10" y="6" width="6" height="150" fill="#2196F3"/></g>
 <rect x="873.0" y="22" width="75.0" height="20" rx="10" fill="#7B61FF"/>
 <text x="910.5" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">RESEARCH</text>
-<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">Quantum Noise Mitigation with AI — Master's Thesis</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">Quantum Noise Mitigation with AI - Master's Thesis</text>
 <text x="42" y="71" font-size="13" font-style="italic" fill="#2196F3">Research · Master's Thesis</text>
 <line x1="42" y1="83" x2="948" y2="83" stroke="#E1E6EE" stroke-width="1.2"/>
 <text x="42" y="103" font-size="14" fill="#4A5866">Application of machine learning techniques to stabilization and error-rate reduction in quantum computing environments.</text>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 236" width="980" height="236" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,Helvetica,sans-serif">
+<rect x="10" y="6" width="960" height="216" rx="18" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+<rect x="43" y="28" width="190" height="136" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.2"/>
+<line x1="68" y1="50" x2="208" y2="50" stroke="#6E7681" stroke-width="1.6"/>
+<line x1="68" y1="68" x2="208" y2="68" stroke="#6E7681" stroke-width="1.6"/>
+<line x1="68" y1="86" x2="208" y2="86" stroke="#6E7681" stroke-width="1.6"/>
+<rect x="80" y="42" width="16" height="16" rx="3" fill="#2196F3"/>
+<text x="88" y="54.5" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">H</text>
+<line x1="120" y1="50" x2="120" y2="75" stroke="#7B61FF" stroke-width="1.6"/>
+<circle cx="120" cy="50" r="3.6" fill="#7B61FF"/>
+<circle cx="120" cy="68" r="7" fill="none" stroke="#7B61FF" stroke-width="1.6"/>
+<line x1="113" y1="68" x2="127" y2="68" stroke="#7B61FF" stroke-width="1.6"/>
+<line x1="152" y1="68" x2="152" y2="93" stroke="#7B61FF" stroke-width="1.6"/>
+<circle cx="152" cy="68" r="3.6" fill="#7B61FF"/>
+<circle cx="152" cy="86" r="7" fill="none" stroke="#7B61FF" stroke-width="1.6"/>
+<line x1="145" y1="86" x2="159" y2="86" stroke="#7B61FF" stroke-width="1.6"/>
+<rect x="174" y="78" width="24" height="16" rx="3" fill="#2196F3"/>
+<text x="186" y="90.5" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">Rz</text>
+<rect x="174" y="42" width="24" height="16" rx="3" fill="#2196F3"/>
+<text x="186" y="54.5" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">√X</text>
+<text x="138" y="120" font-size="15" font-weight="700" fill="#E6EDF3" text-anchor="middle">Quantum circuit</text>
+<text x="138" y="140" font-size="12" fill="#9DA7B3" text-anchor="middle">20K circuits · 5 to 15 qubits</text>
+<text x="138" y="156" font-size="12" fill="#9DA7B3" text-anchor="middle">42 days of real IBM calibration</text>
+<line x1="242" y1="96" x2="265" y2="96" stroke="#2196F3" stroke-width="2"/>
+<path d="M263,91 L272,96 L263,101 Z" fill="#2196F3"/>
+<rect x="281" y="28" width="190" height="136" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.2"/>
+<rect x="304" y="46" width="44" height="6" rx="3" fill="#2196F3" fill-opacity="0.90"/>
+<rect x="304" y="57" width="30" height="6" rx="3" fill="#2196F3" fill-opacity="0.75"/>
+<rect x="304" y="68" width="52" height="6" rx="3" fill="#2196F3" fill-opacity="0.60"/>
+<rect x="304" y="79" width="22" height="6" rx="3" fill="#2196F3" fill-opacity="0.45"/>
+<line x1="370" y1="44" x2="370" y2="90" stroke="#30363D" stroke-width="1.4"/>
+<line x1="394" y1="52" x2="424" y2="46" stroke="#6E7681" stroke-width="1.4"/>
+<line x1="424" y1="46" x2="442" y2="70" stroke="#6E7681" stroke-width="1.4"/>
+<line x1="442" y1="70" x2="412" y2="88" stroke="#6E7681" stroke-width="1.4"/>
+<line x1="412" y1="88" x2="388" y2="78" stroke="#6E7681" stroke-width="1.4"/>
+<line x1="388" y1="78" x2="394" y2="52" stroke="#6E7681" stroke-width="1.4"/>
+<line x1="394" y1="52" x2="442" y2="70" stroke="#6E7681" stroke-width="1.4"/>
+<line x1="424" y1="46" x2="412" y2="88" stroke="#6E7681" stroke-width="1.4"/>
+<circle cx="394" cy="52" r="5.5" fill="#7B61FF"/>
+<circle cx="424" cy="46" r="5.5" fill="#7B61FF"/>
+<circle cx="442" cy="70" r="5.5" fill="#7B61FF"/>
+<circle cx="412" cy="88" r="5.5" fill="#7B61FF"/>
+<circle cx="388" cy="78" r="5.5" fill="#7B61FF"/>
+<text x="376" y="120" font-size="15" font-weight="700" fill="#E6EDF3" text-anchor="middle">Representation</text>
+<text x="376" y="140" font-size="12" fill="#9DA7B3" text-anchor="middle">34 aggregated features</text>
+<text x="376" y="156" font-size="12" fill="#9DA7B3" text-anchor="middle">or the circuit as a graph</text>
+<line x1="480" y1="96" x2="503" y2="96" stroke="#2196F3" stroke-width="2"/>
+<path d="M501,91 L510,96 L501,101 Z" fill="#2196F3"/>
+<rect x="519" y="28" width="190" height="136" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.2"/>
+<rect x="546.0" y="56" width="48" height="22" rx="6" fill="#2196F3" fill-opacity="0.14" stroke="#2196F3" stroke-opacity="0.55" stroke-width="1"/>
+<text x="570.0" y="71" font-size="11" font-weight="700" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" fill="#2196F3" text-anchor="middle" letter-spacing="0.5">RIDGE</text>
+<rect x="602.0" y="56" width="34" height="22" rx="6" fill="#2EA043" fill-opacity="0.14" stroke="#2EA043" stroke-opacity="0.55" stroke-width="1"/>
+<text x="619.0" y="71" font-size="11" font-weight="700" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" fill="#2EA043" text-anchor="middle" letter-spacing="0.5">RF</text>
+<rect x="644.0" y="56" width="38" height="22" rx="6" fill="#7B61FF" fill-opacity="0.14" stroke="#7B61FF" stroke-opacity="0.55" stroke-width="1"/>
+<text x="663.0" y="71" font-size="11" font-weight="700" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" fill="#7B61FF" text-anchor="middle" letter-spacing="0.5">GNN</text>
+<text x="614" y="120" font-size="15" font-weight="700" fill="#E6EDF3" text-anchor="middle">Models</text>
+<text x="614" y="140" font-size="12" fill="#9DA7B3" text-anchor="middle">Ridge · Random Forest · GNNs</text>
+<text x="614" y="156" font-size="12" fill="#9DA7B3" text-anchor="middle">GraphSAGE · GIN · GATv2</text>
+<line x1="718" y1="96" x2="741" y2="96" stroke="#2196F3" stroke-width="2"/>
+<path d="M739,91 L748,96 L739,101 Z" fill="#2196F3"/>
+<rect x="757" y="28" width="190" height="136" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.2"/>
+<text x="804" y="61" font-size="10" fill="#9DA7B3" text-anchor="end">ideal</text>
+<rect x="812" y="52" width="108" height="12" rx="6" fill="#30363D"/>
+<rect x="812" y="52" width="108.0" height="12" rx="6" fill="#6E7681"/>
+<text x="804" y="83" font-size="10" fill="#9DA7B3" text-anchor="end">noisy</text>
+<rect x="812" y="74" width="108" height="12" rx="6" fill="#30363D"/>
+<rect x="812" y="74" width="67.0" height="12" rx="6" fill="#2EA043"/>
+<text x="852" y="120" font-size="15" font-weight="700" fill="#E6EDF3" text-anchor="middle">Survival factor</text>
+<text x="852" y="140" font-size="12" fill="#9DA7B3" text-anchor="middle">Predicted before execution</text>
+<text x="852" y="156" font-size="12" fill="#9DA7B3" text-anchor="middle">to decide what is worth running</text>
+<text x="281.0" y="196" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Evaluated on 3 generalization axes:</text>
+<rect x="497.0" y="182" width="94" height="20" rx="6" fill="#0D2A4A" stroke="#1F4E7A" stroke-width="1"/><text x="544.0" y="196" font-size="11" font-weight="700" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" fill="#79B8FF" text-anchor="middle" letter-spacing="0.5">CIRCUIT TYPE</text>
+<rect x="599.0" y="182" width="46" height="20" rx="6" fill="#0D2A4A" stroke="#1F4E7A" stroke-width="1"/><text x="622.0" y="196" font-size="11" font-weight="700" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" fill="#79B8FF" text-anchor="middle" letter-spacing="0.5">SIZE</text>
+<rect x="653.0" y="182" width="46" height="20" rx="6" fill="#0D2A4A" stroke="#1F4E7A" stroke-width="1"/><text x="676.0" y="196" font-size="11" font-weight="700" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" fill="#79B8FF" text-anchor="middle" letter-spacing="0.5">TIME</text>
+</svg>

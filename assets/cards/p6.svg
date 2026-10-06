@@ -9,7 +9,7 @@
 <g clip-path="url(#cl-p7)"><rect x="10" y="6" width="6" height="270" fill="#2196F3"/></g>
 <rect x="353.2" y="22" width="94.8" height="20" rx="10" fill="#D29922"/>
 <text x="400.6" y="36" font-family="'SFMono-Regular',Consolas,'DejaVu Sans Mono','Courier New',monospace" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">IN PROGRESS</text>
-<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">E-Commerce Fraud —</text>
+<text x="42" y="42" font-size="22" font-weight="700" fill="#1A2733">E-Commerce Fraud -</text>
 <text x="42" y="69" font-size="22" font-weight="700" fill="#1A2733">Anomaly Detection</text>
 <text x="42" y="98" font-size="13" font-style="italic" fill="#2196F3">Z-score · Isolation Forest · LOF · PELT</text>
 <line x1="42" y1="110" x2="448" y2="110" stroke="#E1E6EE" stroke-width="1.2"/>
