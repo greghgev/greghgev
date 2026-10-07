@@ -379,7 +379,7 @@ I work particularly well in team environments and I pick up new stacks quickly. 
 
 <div align="center">
 
-<a href="assets/cv.pdf">
+<a href="assets/CV.pdf">
   <img src="assets/cv-preview.png" width="420" alt="CV preview - click to open the full PDF" />
 </a>
 
