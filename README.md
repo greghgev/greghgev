@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/headers/banner.svg" width="100%" alt="Gregory Harutyunyan - AI/ML Engineer · Mathematician" />
+<img src="assets/headers/banner.svg" width="100%" alt="Gregory Harutyunyan - AI/ML Engineer | Data Scientist | Mathematician" />
 
 <br><br>
 
@@ -9,7 +9,7 @@
 <br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2196F3&center=true&vCenter=true&width=600&lines=AI%2FML+Engineer+%C2%B7+Mathematician;LLMs+in+production%3A+FastAPI+%2B+LangChain;Data+Engineering%3A+Spark+%C2%B7+Kafka+%C2%B7+BigQuery;NLP+%C2%B7+Vision+%C2%B7+Anomalies+%C2%B7+LLMOps;From+mathematical+rigor+to+deployment" alt="typing-svg" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2196F3&center=true&vCenter=true&width=700&lines=AI%2FML+Engineer+%7C+Data+Scientist+%7C+Mathematician;LLMs+in+production%3A+FastAPI+%2B+LangChain;Data+Engineering%3A+Spark+%C2%B7+Kafka+%C2%B7+BigQuery;NLP+%C2%B7+Vision+%C2%B7+Anomalies+%C2%B7+LLMOps;From+mathematical+rigor+to+deployment" alt="typing-svg" />
 </a>
 
 <br>
@@ -24,9 +24,6 @@
 <a href="mailto:greg.hgev@gmail.com">
   <img src="https://img.shields.io/badge/Email-1A1A1A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-<a href="assets/CV.pdf">
-  <img src="https://img.shields.io/badge/Curriculum_Vitae-2196F3?style=for-the-badge&logo=readthedocs&logoColor=white" alt="CV" />
-</a>
 
 </div>
 
@@ -37,7 +34,7 @@
   <img src="assets/headers/sobre-mi-light.svg" width="480" alt="About me">
 </picture>
 
-**AI / Machine Learning Engineer** with a background in **Mathematics** (UGR - #1 Mathematics degree in Spain, ShanghaiRanking 2025) and a **Master's in AI + Data Engineering specialization** (UNIR) in its final stage. EU citizen based in Granada, open to relocation and **available for internships or junior roles**.
+**AI / Machine Learning Engineer** and **Data Scientist** with a background in **Mathematics** (UGR - #1 Mathematics degree in Spain, ShanghaiRanking 2025) and a **Master's in AI + Data Engineering specialization** (UNIR) in its final stage. EU citizen based in Granada, open to relocation and **available for internships or junior roles**.
 
 During my internship at **Qualígrafo**, I worked on the LLM inference engine of Mimesis, an AI platform that helps psychologists and researchers turn hours of interviews into customised surveys, extracting relevant patterns and generating conclusions automatically.
 
@@ -81,7 +78,7 @@ I work particularly well in team environments and I pick up new stacks quickly. 
   <img src="assets/headers/tfm-light.svg" width="480" alt="Master's Thesis">
 </picture>
 
-### Quantum Noise Mitigation with AI &nbsp; [![Master's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Master%27s%20Thesis-PDF%20%C2%B7%20Spanish-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis/master-thesis.pdf)
+### Quantum Noise Mitigation with AI &nbsp; [![Master's Thesis (overview)](https://img.shields.io/badge/Master%27s%20Thesis-Overview-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis)
 > Submitted · 2026 · Master's in AI · UNIR
 
 > <code>Python</code> · <code>PyTorch Geometric</code> · <code>Qiskit Aer</code> · <code>Scikit-learn</code> · <code>W&amp;B</code> · <code>DVC</code> · <code>GCP</code>
@@ -205,13 +202,13 @@ I work particularly well in team environments and I pick up new stacks quickly. 
 </picture>
 
 
-### Master's Degree in Artificial Intelligence + Data Engineering specialization - UNIR &nbsp; [![Repository](https://img.shields.io/badge/master--ia--unir-2196F3?style=flat-square&logo=github&logoColor=white)](https://github.com/greghgev/master-ia-unir) [![Master's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Master%27s%20Thesis-PDF%20%C2%B7%20Spanish-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis/master-thesis.pdf)
-> <p><sub><b>In progress · Nov 2025 – Jul 2026</b></sub></p>
+### Master's Degree in Artificial Intelligence + Data Engineering specialization - UNIR &nbsp; [![Repository](https://img.shields.io/badge/master--ia--unir-2196F3?style=flat-square&logo=github&logoColor=white)](https://github.com/greghgev/master-ia-unir) [![Master's Thesis (overview)](https://img.shields.io/badge/Master%27s%20Thesis-Overview-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis)
+> <p><sub><b>In progress · Nov 2025 – Present</b></sub></p>
 > 
 > - **Master's Thesis:** application of AI techniques for noise mitigation in quantum computing.
 > - **Data Engineering:** labs on continuous processing pipelines (Apache Kafka, Spark Streaming) and analytical ingestion in the cloud (GCP, BigQuery).
 
-### Bachelor's Degree in Mathematics - University of Granada (UGR) &nbsp; [![Bachelor's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Bachelor%27s%20Thesis-PDF%20%C2%B7%20Spanish-2196F3?style=flat-square&logo=readthedocs&logoColor=white)](assets/bachelor-thesis/bachelor-thesis.pdf)
+### Bachelor's Degree in Mathematics - University of Granada (UGR) &nbsp; [![Bachelor's Thesis (overview)](https://img.shields.io/badge/Bachelor%27s%20Thesis-Overview-2196F3?style=flat-square&logo=readthedocs&logoColor=white)](assets/bachelor-thesis)
 > <p><sub><b>2021 – 2025</b></sub></p>
 > 
 > - Completed in the standard time (4 years) in the Mathematics degree ranked **#1 in Spain**.
@@ -372,32 +369,11 @@ I work particularly well in team environments and I pick up new stacks quickly. 
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/headers/cv-dark.svg">
-  <img src="assets/headers/cv-light.svg" width="300" alt="CV">
-</picture>
-
-<div align="center">
-
-<a href="assets/CV.pdf">
-  <img src="assets/cv-preview.png" width="420" alt="CV preview - click to open the full PDF" />
-</a>
-
-<br>
-
-<sub>Click the image to open the full PDF.</sub>
-
-</div>
-
-<br>
-
----
-
 <div align="center">
 
 ### Available for hire
 
-Open to **AI/ML Engineer** (Junior) positions and internships in Machine Learning, LLMs and Data Engineering teams.
+Open to **AI/ML Engineer** and **Data Scientist** (Junior) positions and internships in Machine Learning, Data Science, LLMs and Data Engineering teams.
 
 <a href="https://www.linkedin.com/in/gregory-hgev">
   <img src="https://img.shields.io/badge/Let's%20talk-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
