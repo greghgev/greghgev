@@ -81,7 +81,7 @@ I work particularly well in team environments and I pick up new stacks quickly. 
   <img src="assets/headers/tfm-light.svg" width="480" alt="Master's Thesis">
 </picture>
 
-### Quantum Noise Mitigation with AI &nbsp; [![Master's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Master%27s%20Thesis-PDF%20%C2%B7%20Spanish-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis.pdf)
+### Quantum Noise Mitigation with AI &nbsp; [![Master's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Master%27s%20Thesis-PDF%20%C2%B7%20Spanish-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis/master-thesis.pdf)
 > Submitted · 2026 · Master's in AI · UNIR
 
 > <code>Python</code> · <code>PyTorch Geometric</code> · <code>Qiskit Aer</code> · <code>Scikit-learn</code> · <code>W&amp;B</code> · <code>DVC</code> · <code>GCP</code>
@@ -205,13 +205,13 @@ I work particularly well in team environments and I pick up new stacks quickly. 
 </picture>
 
 
-### Master's Degree in Artificial Intelligence + Data Engineering specialization - UNIR &nbsp; [![Repository](https://img.shields.io/badge/master--ia--unir-2196F3?style=flat-square&logo=github&logoColor=white)](https://github.com/greghgev/master-ia-unir) [![Master's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Master%27s%20Thesis-PDF%20%C2%B7%20Spanish-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis.pdf)
+### Master's Degree in Artificial Intelligence + Data Engineering specialization - UNIR &nbsp; [![Repository](https://img.shields.io/badge/master--ia--unir-2196F3?style=flat-square&logo=github&logoColor=white)](https://github.com/greghgev/master-ia-unir) [![Master's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Master%27s%20Thesis-PDF%20%C2%B7%20Spanish-7B61FF?style=flat-square&logo=readthedocs&logoColor=white)](assets/master-thesis/master-thesis.pdf)
 > <p><sub><b>In progress · Nov 2025 – Jul 2026</b></sub></p>
 > 
 > - **Master's Thesis:** application of AI techniques for noise mitigation in quantum computing.
 > - **Data Engineering:** labs on continuous processing pipelines (Apache Kafka, Spark Streaming) and analytical ingestion in the cloud (GCP, BigQuery).
 
-### Bachelor's Degree in Mathematics - University of Granada (UGR) &nbsp; [![Bachelor's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Bachelor%27s%20Thesis-PDF%20%C2%B7%20Spanish-2196F3?style=flat-square&logo=readthedocs&logoColor=white)](assets/bachelor-thesis.pdf)
+### Bachelor's Degree in Mathematics - University of Granada (UGR) &nbsp; [![Bachelor's Thesis (PDF, in Spanish)](https://img.shields.io/badge/Bachelor%27s%20Thesis-PDF%20%C2%B7%20Spanish-2196F3?style=flat-square&logo=readthedocs&logoColor=white)](assets/bachelor-thesis/bachelor-thesis.pdf)
 > <p><sub><b>2021 – 2025</b></sub></p>
 > 
 > - Completed in the standard time (4 years) in the Mathematics degree ranked **#1 in Spain**.
